@@ -4,3 +4,4 @@ def find_last_even(numbers_list):
             return numbers_list[i]
 
 print(find_last_even([1,2,3,4,5]))
+#განვიხილე
