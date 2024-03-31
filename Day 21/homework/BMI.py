@@ -7,6 +7,4 @@ def bmi(weight, height):
     elif bmi <= 30.0:
         return "Overweight"
     elif bmi > 30:
-        return "Obese"
-
-print(bmi(43, 1.45))        
+        return "Obese"    
