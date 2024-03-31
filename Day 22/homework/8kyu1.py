@@ -1,4 +1,5 @@
-colors = ["Red", "Blue", "Yellow"]
-colors.insert(2, "Green")
-colors.append("Black")
-print(colors[4])
+def even_or_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
