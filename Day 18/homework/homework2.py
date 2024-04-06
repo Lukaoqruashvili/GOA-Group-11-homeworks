@@ -1,6 +1,3 @@
-def append_to_list(name, name_list):
-    name_list.append(name)
-
-name = []
-append_to_list('luka', name)
-print(name)
+for i in range(1,11):
+    s = i ** 2
+    print(s)

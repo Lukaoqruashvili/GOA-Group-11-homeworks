@@ -3,8 +3,7 @@ def my_func(arr):
     new_str = ""
     new_list = []
     for i in arr:
-        if i % 2 == 0:
-            new_str += join_str + str(i)
+        new_str += join_str + str(i)
     return new_str[1:]
 
 print(my_func([1,2,3,4]))
