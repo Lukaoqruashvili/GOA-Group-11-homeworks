@@ -4,5 +4,4 @@ def manual_sum(lst):
         sum += num
     return sum
 
-
 print(manual_sum([1,2,3,4,5,6]))
